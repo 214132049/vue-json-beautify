@@ -1,0 +1,15 @@
+{
+  "name": "vue-formatjson",
+  "version": "1.0.0",
+  "description": "基于vue指令，格式化JSON字符串。",
+  "main": "formatJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "json"
+  ],
+  "author": "libra",
+  "license": "ISC"
+}
