@@ -1,6 +1,6 @@
 {
   "name": "vue-formatjson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于vue指令，格式化JSON字符串。",
   "main": "index.js",
   "scripts": {
