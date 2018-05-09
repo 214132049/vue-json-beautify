@@ -1,6 +1,6 @@
 {
   "name": "vue-json-beautify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于vue指令，在页面上显示格式化后的JSON字符串",
   "main": "index.js",
   "scripts": {
