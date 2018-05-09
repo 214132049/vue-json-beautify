@@ -3,8 +3,6 @@
 # options
   指令修饰符：
 
-    iscollapsible:  是否显示折叠收起图标, 缩写:c, 默认为 true
-
     quotekeys:  json属性是否有引号, 缩写:q, 默认为 true
 
   指令参数：
@@ -16,15 +14,15 @@
 # usage
  ```
   /* 引入样式 */
-  @import '~vue-json/lib/index.css'
+  @import '~vue-json-beautify/lib/index.css'
 
 
   /* html */
-  <div v-demo:2.q.c="code"></div>
+  <div v-demo:2.q="code"></div>
 
 
   /* js */
-  import VueJson from 'vue-json'
+  import VueJson from 'vue-json-beautify'
 
   Vue.directive('demo', function(el, binding) {
     VueJson(el, binding)
