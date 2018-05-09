@@ -1,6 +1,6 @@
 {
   "name": "vue-json",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "基于vue指令，在页面上显示格式化后的JSON字符串",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
   ],
   "github": "https://github.com/214132049/vue-json",
   "author": "libra",
+  "dependencies": {
+    "vue": "^2.1.8"
+  },
   "license": "ISC"
 }
