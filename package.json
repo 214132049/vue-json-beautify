@@ -1,7 +1,7 @@
 {
-  "name": "vue-formatjson",
-  "version": "1.0.1",
-  "description": "基于vue指令，格式化JSON字符串。",
+  "name": "vue-json",
+  "version": "1.0.2",
+  "description": "基于vue指令，在页面上显示格式化后的JSON字符串",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "vue",
     "json"
   ],
-  "github": "https://github.com/214132049/vue-formatJson",
+  "github": "https://github.com/214132049/vue-json",
   "author": "libra",
   "license": "ISC"
 }
