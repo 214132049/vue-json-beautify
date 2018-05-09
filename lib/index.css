@@ -1,7 +1,7 @@
 pre {
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-family: monospace,Menlo,Monaco,Consolas,"Courier New";
 	color: #333333;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 pre.CodeContainer {
@@ -14,24 +14,26 @@ pre.CodeContainer img {
 	border: none;
 	margin-bottom: -1px;
 }
-
+span {
+	line-height: 15px;
+	white-space: pre-wrap;
+}
 .ObjectBrace {
-	color: #00AA00;
+	color: #333;
 	font-weight: bold;
 }
 
 .ArrayBrace {
-	color: #0033FF;
-	font-weight: bold;
+	color: #111;
 }
 
 .PropertyName {
-	color: #CC0000;
+	color: #111;
 	font-weight: bold;
 }
 
 .String {
-	color: #007777;
+	color: green;
 }
 
 .Number {
